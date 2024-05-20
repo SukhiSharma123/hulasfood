@@ -14,6 +14,7 @@ import MenuPage from './Pages/MenuPage';
 import Testimonial from './Pages/Testimonial';
 import BrandLogo from './Pages/BrandLogo';
 import Footer from './Pages/Footer';
+import OurVideo from './Pages/OurVideo';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <MenuPage />
     <Testimonial />
     <BrandLogo />
+    <OurVideo />
     <Footer />
       {/* <Routes>
         <Route path='/' element={<Home/>} />

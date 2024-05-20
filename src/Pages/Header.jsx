@@ -27,14 +27,14 @@ function Header() {
         <>
             <header>
     
-              <div class={`header-area header-area2 ${active ? 'sticky-header' : ''}`} style={{padding:"0px", background:"rgba(0,0,0,0)"}}>
-                <div id="logo" class="text-center" style={{paddingTop:"10px"}}> <a href="index.php"><img src={logo} alt="logo" style={{maxHeight:"90px"}}/></a> </div>
-                <div class="">
-                  <div id="logo-sticky" class="text-center"><a href="index.php"><img src={logo} style={{maxHeight:"90px", paddingTop:"0px", marginTop:"-10px"}} alt="logo"/></a> </div>
-                  <div class=""> <a class={`rs-menu-toggle ${open ? 'rs-menu-toggle-close' : 'rs-menu-toggle-open'}`} onClick={handleNav}><i class="fa fa-bars"></i>Menu</a>
-                    <nav class={`rs-menu ${open ? 'rs-menu-close' : ''}`} style={{height:"0px"}}>
-                      <ul class="nav-menu">
-                        <li class="active"><a href="index.php" style={{color:"#fff"}} class="active"><i class="fas fa-home"></i>Home</a></li>
+              <div className={`header-area header-area2 ${active ? 'sticky-header' : ''}`} style={{padding:"0px", background:"rgba(0,0,0,0)"}}>
+                <div id="logo" className="text-center" style={{paddingTop:"10px"}}> <a href="index.php"><img src={logo} alt="logo" style={{maxHeight:"90px"}}/></a> </div>
+                <div className="">
+                  <div id="logo-sticky" className="text-center"><a href="index.php"><img src={logo} style={{maxHeight:"90px", paddingTop:"0px", marginTop:"-10px"}} alt="logo"/></a> </div>
+                  <div className=""> <a className={`rs-menu-toggle ${open ? 'rs-menu-toggle-close' : 'rs-menu-toggle-open'}`} onClick={handleNav}><i className="fa fa-bars"></i>Menu</a>
+                    <nav className={`rs-menu ${open ? 'rs-menu-close' : ''}`} style={{height:"0px"}}>
+                      <ul className="nav-menu">
+                        <li className="active"><a href="index.php" style={{color:"#fff"}} className="active"><i className="fas fa-home"></i>Home</a></li>
                         <li> <a href="about.php">About Us</a></li>
                         <li> <a href="products.php">Our Products</a></li>
                         <li> <a href="recipes.php">Recipes</a></li>
