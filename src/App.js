@@ -11,6 +11,9 @@ import Header from './Pages/Header';
 import Slider from './Pages/Slider';
 import Services from './Pages/Services';
 import MenuPage from './Pages/MenuPage';
+import Testimonial from './Pages/Testimonial';
+import BrandLogo from './Pages/BrandLogo';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -19,9 +22,12 @@ function App() {
     <Slider />
     <Services />
     <MenuPage />
-      <Routes>
+    <Testimonial />
+    <BrandLogo />
+    <Footer />
+      {/* <Routes>
         <Route path='/' element={<Home/>} />
-      </Routes>
+      </Routes> */}
     </>
   );
 }

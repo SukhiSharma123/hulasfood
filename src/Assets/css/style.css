@@ -2370,6 +2370,7 @@ body .nav-menu ul .active > a {
   top: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.8);
+  background-color: #f5f5f5;
 }
 .testimonal-two .container {
   max-width: 1276px;
@@ -2377,7 +2378,7 @@ body .nav-menu ul .active > a {
   color: #fff;
 }
 .testimonal-two .container h3 {
-  color: #fff;
+  color: #555;
   position: relative;
   z-index: 99;
   margin: 0 0 10px;
@@ -2426,7 +2427,7 @@ body .nav-menu ul .active > a {
   text-align: center;
 }
 .testimonal-two .container .inner p {
-  color: #ccc;
+  color: #888!important;
   font-style: italic;
 }
 .testimonal-two .container .padding-equal {
@@ -4831,7 +4832,7 @@ body .nav-menu ul .active > a {
 31.Footer Css Start Here 
 ---------------------------------------*/
 footer {
-  background: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/09/Image_-_How_to_design_a_website_.jpeg.jpg") no-repeat center top;
+  background: url("../images/footer/1.jpg") no-repeat center top;
   position: relative;
   color: #ccc;
   background-size: cover;
@@ -5335,4 +5336,12 @@ footer .copyright:before {
   body .nav-menu ul .active > a {
     color: #f10909 !important;
   }
+}
+
+
+
+.brand-logo-area .owl-stage-outer .owl-stage {
+  transform: translate3d(-1344px, 0px, 0px); 
+  transition: all 0.25s ease 0s; 
+  /* width: 3264px; */
 }
