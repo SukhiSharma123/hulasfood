@@ -1,9 +1,14 @@
 import React from 'react'
+import Slider from './Slider';
+import Services from './Services';
+import MenuPage from './MenuPage';
 
 function Home() {
   return (
     <>
-    <h1>hello Sukhi</h1>
+    {/* <Slider/> */}
+    <Services />
+    <MenuPage />
     </>
   )
 }

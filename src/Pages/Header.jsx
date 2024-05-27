@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../Assets/images/logo/logo.png'
+import { Link } from 'react-router-dom';
 
 function Header() {
     const [active, setActive] = useState(false);
@@ -34,11 +35,11 @@ function Header() {
                   <div className=""> <a className={`rs-menu-toggle ${open ? 'rs-menu-toggle-close' : 'rs-menu-toggle-open'}`} onClick={handleNav}><i className="fa fa-bars"></i>Menu</a>
                     <nav className={`rs-menu ${open ? 'rs-menu-close' : ''}`} style={{height:"0px"}}>
                       <ul className="nav-menu">
-                        <li className="active"><a href="index.php" style={{color:"#fff"}} className="active"><i className="fas fa-home"></i>Home</a></li>
+                        <li className="active"><Link to="/" style={{color:"#fff"}} className="active"><i className="fas fa-home"></i>Home</Link></li>
                         <li> <a href="about.php">About Us</a></li>
                         <li> <a href="products.php">Our Products</a></li>
                         <li> <a href="recipes.php">Recipes</a></li>
-                        <li> <a href="companies.php">Associate Company</a></li>
+                        <li> <Link to="/associate-company">Associate Company</Link></li>
                         {/* <li><a href="careers.php">Career</a></li> */}
                         <li><a href="contact_us.php">Contact Us</a></li>
                         {/* <li><a href="complains.php">Complains</a></li> */}

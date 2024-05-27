@@ -15,21 +15,23 @@ import Testimonial from './Pages/Testimonial';
 import BrandLogo from './Pages/BrandLogo';
 import Footer from './Pages/Footer';
 import OurVideo from './Pages/OurVideo';
+import CompanyMembers from './Pages/CompanyMembers';
+import AssociateCompany from './Pages/AssociateCompany';
 
 function App() {
   return (
     <>
     <Header />
     <Slider />
-    <Services />
-    <MenuPage />
-    <Testimonial />
-    <BrandLogo />
-    <OurVideo />
-    <Footer />
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Home/>} />
-      </Routes> */}
+        <Route path='/associate-company' element={<AssociateCompany/>} />
+      </Routes>
+      <Testimonial />
+      <CompanyMembers />
+      <BrandLogo />
+      <OurVideo />
+      <Footer />
     </>
   );
 }

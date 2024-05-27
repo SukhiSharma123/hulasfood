@@ -2462,6 +2462,7 @@ body .nav-menu ul .active > a {
 ---------------------------------------*/
 .inner-banner {
   position: relative;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/969/361/small/multi-layers-gray-blue-dark-texture-3d-papercut-layers-in-gradient-banner-abstract-paper-cut-art-background-design-for-website-template-topography-map-concept-or-smooth-origami-paper-cut-vector.jpg');
 }
 .inner-banner img {
   width: 100%;
@@ -5344,4 +5345,73 @@ footer .copyright:before {
   transform: translate3d(-1344px, 0px, 0px); 
   transition: all 0.25s ease 0s; 
   /* width: 3264px; */
+}
+/* 
+ */
+.aboutouter-company {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.aboutbox-company {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.aboutmain {
+  margin: 20px 0;
+}
+
+.tabbox {
+  margin-bottom: 20px;
+}
+
+.tabbox .nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+.tabbox .nav-tabs .btn {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tabbox .nav-tabs .btn:hover {
+  background-color: #e0e0e0;
+}
+
+.tabbox .nav-tabs .btn.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.abouttext-company {
+  padding: 20px;
+}
+
+
+
+.tab-pane {
+  display: none; /* Hide all tab panes by default */
+}
+
+.tab-pane.active {
+  display: block; /* Show the active tab pane */
+}
+
+.tab-pane ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tab-pane ul li {
+  padding: 5px 0;
+  color: #333; /* Change this to a visible color */
 }
