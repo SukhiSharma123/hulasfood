@@ -17,6 +17,8 @@ import Footer from './Pages/Footer';
 import OurVideo from './Pages/OurVideo';
 import CompanyMembers from './Pages/CompanyMembers';
 import AssociateCompany from './Pages/AssociateCompany';
+import OurProductsPage from './Pages/OurProductsPage';
+import AboutPage from './Pages/AboutPage';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/associate-company' element={<AssociateCompany/>} />
+        <Route path='/products' element={<OurProductsPage/>} />
+        <Route path='/about-us' element={<AboutPage/>} />
       </Routes>
       <Testimonial />
       <CompanyMembers />

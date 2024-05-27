@@ -36,12 +36,12 @@ function Header() {
                     <nav className={`rs-menu ${open ? 'rs-menu-close' : ''}`} style={{height:"0px"}}>
                       <ul className="nav-menu">
                         <li className="active"><Link to="/" style={{color:"#fff"}} className="active"><i className="fas fa-home"></i>Home</Link></li>
-                        <li> <a href="about.php">About Us</a></li>
-                        <li> <a href="products.php">Our Products</a></li>
-                        <li> <a href="recipes.php">Recipes</a></li>
+                        <li> <Link to="/about-us">About Us</Link></li>
+                        <li> <Link to="/products">Our Products</Link></li>
+                        <li> <Link to="">Recipes</Link></li>
                         <li> <Link to="/associate-company">Associate Company</Link></li>
                         {/* <li><a href="careers.php">Career</a></li> */}
-                        <li><a href="contact_us.php">Contact Us</a></li>
+                        <li><Link to="">Contact Us</Link></li>
                         {/* <li><a href="complains.php">Complains</a></li> */}
                         
                       </ul>

@@ -19,8 +19,8 @@ function CompanyMembers() {
                                   <div className="col-sm-4 mt-2">
                                        <div className="videoone" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                             {/* <button className="playbtn"><i className="fas fa-play"></i></button> */}
-                                            <img src={ceo} style={{height:"300px", width:"100%"}}/>
-                                            <p style={{fontWeight:"bold", fontSize:"20px", textAlign:"center"}}>Name, Position</p>
+                                            <img alt='' src={ceo} style={{height:"300px", width:"100%"}}/>
+                                            <p style={{fontWeight:"bold", fontSize:"20px", textAlign:"center"}}>Name, <span style={{fontSize:"12px"}}>Position</span></p>
                                             
                                        </div>
                                   </div>
@@ -28,16 +28,16 @@ function CompanyMembers() {
                                   <div className="col-sm-4 mt-2">
                                        <div className="videoone" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             {/* <button className="playbtn"><i className="fas fa-play"></i></button> */}
-                                            <img src={cto} style={{height:"300px", width:"100%"}}/>
-                                            <p style={{fontWeight:"bold", fontSize:"20px", textAlign:"center"}}>Name, Position</p>
+                                            <img alt='' src={cto} style={{height:"300px", width:"100%"}}/>
+                                            <p style={{fontWeight:"bold", fontSize:"20px", textAlign:"center"}}>Name, <span style={{fontSize:"12px"}}>Position</span></p>
                                        </div>
                                   </div>
 
                                   <div className="col-sm-4 mt-2">
                                        <div className="videoone" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             {/* <button className="playbtn"><i className="fas fa-play"></i></button> */}
-                                            <img src={member} style={{height:"300px", width:"100%"}}/>
-                                            <p style={{fontWeight:"bold", fontSize:"20px", textAlign:"center"}}>Name, Position</p>
+                                            <img alt='' src={member} style={{height:"300px", width:"100%"}}/>
+                                            <p style={{fontWeight:"bold", fontSize:"20px", textAlign:"center"}}>Name, <span style={{fontSize:"12px"}}>Position</span></p>
                                        </div>
                                   </div>
 

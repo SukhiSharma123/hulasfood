@@ -10,15 +10,15 @@ function AssociateCompany() {
     }
     return (
         <>  
-            <InnerBanner/>
+            <InnerBanner title="Associate Company" page="Associate Company"/>
             <div className="aboutouter-company">
                 <div className="aboutbox-company">
                     <div className="aboutmain">
                         <div className="tabbox text-center">
                             <ul className="row nav nav-tabs" style={{borderBottom: "1px solid #ddd"}}>
-                            <li className={toggle === 'menu0' ? 'col-md-4 btn active' : 'col-md-4 btn'} onClick={() => handleToggle('menu0')}>Bhudeo Khadya Udyog(P) Ltd.</li>
-                            <li className={toggle === 'menu1' ? 'col-md-4 btn active' : 'col-md-4 btn'} onClick={() => handleToggle('menu1')}>Dhiraj Chamal Udyog (P) Ltd.</li>
-                            <li className={toggle === 'menu2' ? 'col-md-4 btn active' : 'col-md-4 btn'} onClick={() => handleToggle('menu2')}>Bhudeo Food &amp; Snacks Industries Pvt. Ltd.</li>
+                            <li className={toggle === 'menu0' ? 'col-md-4 btn active' : 'col-md-4 btn'} onClick={() => handleToggle('menu0')}>Barsha rice and flour mill<br></br>Pan no: 607577437</li>
+                            <li className={toggle === 'menu1' ? 'col-md-4 btn active' : 'col-md-4 btn'} onClick={() => handleToggle('menu1')}>Shree ram and Govind Baba agro industries Pvt ltd<br></br>Pan no: 610226397</li>
+                            <li className={toggle === 'menu2' ? 'col-md-4 btn active' : 'col-md-4 btn'} onClick={() => handleToggle('menu2')}>Ravishankar agro industries Pvt ltd<br></br>Pan no: 610149524</li>
                             </ul>
                         </div>
                         <div className="abouttext-company">

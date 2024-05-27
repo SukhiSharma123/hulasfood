@@ -15,7 +15,7 @@ function Footer() {
     
     <div className="social-icon text-center">
       <ul className="text-center">
-        <li> <a href="#"><i className="fab fa-facebook" aria-hidden="true"></i></a> </li>
+        <li> <a href="https://www.facebook.com/profile.php?id=100090009187497&mibextid=rS40aB7S9Ucbxw6v" target='_blank'><i className="fab fa-facebook" aria-hidden="true"></i></a> </li>
         <li> <a href="#"><i className="fab fa-google-plus" aria-hidden="true"></i></a> </li>
         <li> <a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a> </li>
         <li> <a href="#"><i className="fab fa-pinterest-p" aria-hidden="true"></i></a> </li>
